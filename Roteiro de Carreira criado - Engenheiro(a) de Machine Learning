@@ -1,0 +1,161 @@
+Olá! Recebi suas informações do entrevistador.
+
+Vejo que você escolheu **Engenharia de Machine Learning (IA)** e tem **14 horas por semana** para estudar. Perfeito! Com sua experiência de "iniciante curioso", seu objetivo de transição de carreira e sua preferência por código (especialmente Python), vamos focar em construir uma base sólida e prática.
+
+Vou montar agora seu plano completo personalizado.
+
+---
+
+🧩 VISÃO DO DIA A DIA
+
+Como é o trabalho de um(a) **Engenheiro(a) de Machine Learning**:
+
+* **Coletar e Limpar Dados:** Você passará muito tempo garantindo que os dados usados para treinar modelos sejam limpos, organizados e relevantes.
+* **Construir Pipelines de Dados:** Automatizar o processo de coleta e transformação de dados (ETL) para que os modelos sempre tenham dados frescos.
+* **Treinar e Avaliar Modelos:** Aplicar algoritmos de ML, ajustar parâmetros (hiperparâmetros) e medir rigorosamente o desempenho dos modelos.
+* **Implantar Modelos (Deploy):** Colocar os modelos treinados em produção, geralmente criando APIs (microsserviços) para que outros sistemas possam usá-los.
+* **Monitorar e Manter:** Garantir que o modelo em produção continue funcionando bem, monitorando por "drift" (quando o modelo fica desatualizado) e retreinando-o quando necessário.
+
+🧠 MAPA DE SKILLS
+
+CORE SKILLS (essenciais):
+* **Python (Avançado):** Programação Orientada a Objetos, estruturas de dados.
+* **Bibliotecas de Dados:** Pandas (manipulação) e NumPy (cálculo numérico).
+* **Machine Learning Clássico:** Scikit-learn (para regressão, classificação, clustering).
+* **SQL:** Saber consultar e extrair dados de bancos de dados.
+* **Fundamentos de Estatística:** Essencial para entender *por que* os modelos funcionam e como avaliá-los.
+
+NICE-TO-HAVE (complementares):
+* **Deep Learning:** TensorFlow ou PyTorch.
+* **Ferramentas de MLOps:** Docker (containerização), MLflow (tracking), FastAPI (criação de APIs).
+* **Cloud:** Noções básicas de AWS, Azure ou GCP.
+
+FERRAMENTAS E TECNOLOGIAS:
+* Python
+* Jupyter Notebooks / Google Colab
+* Git / GitHub
+* Scikit-learn
+* Pandas
+* SQL (PostgreSQL ou MySQL)
+
+📅 ROADMAP DE 180 DIAS
+
+ADAPTADO PARA: **14 horas/semana**
+
+**MÊS 1 - FUNDAMENTOS PYTHON E DADOS**
+*(Foco: Nivelar sua base de "iniciante" para "pronto para ML")*
+
+* **SEMANA 1-2:**
+    * Revisão de Python: Foco em Funções, Classes (POO) e manipulação de arquivos.
+    * Git e GitHub: Aprender a versionar seu código (essencial!).
+* **SEMANA 3-4:**
+    * Análise de Dados com Pandas: Carregar, limpar, transformar e agregar dados (ex: `read_csv`, `groupby`, `merge`).
+    * Visualização de Dados: Matplotlib e Seaborn para criar gráficos e entender os dados.
+
+**MÊS 2 - ESTATÍSTICA E MACHINE LEARNING CLÁSSICO**
+
+* **SEMANA 5-6:**
+    * Estatística Fundamental: Média, mediana, moda, desvio padrão, distribuições e testes de hipótese (conceitual).
+    * Introdução ao SQL: Foco em `SELECT`, `WHERE`, `GROUP BY` e `JOIN`.
+* **SEMANA 7-8:**
+    * Fundamentos de ML: O que é ML Supervisionado vs. Não Supervisionado? O que é treino, teste e validação?
+    * Scikit-learn (Parte 1): Regressão Linear e Regressão Logística.
+
+**MÊS 3 - MODELOS AVANÇADOS E PRÉ-PROCESSAMENTO**
+
+* **SEMANA 9-10:**
+    * Scikit-learn (Parte 2): Árvores de Decisão, Random Forest e K-Means (clustering).
+    * Métricas de Avaliação: Entender Acurácia, Precisão, Recall, F1-Score e Matriz de Confusão.
+* **SEMANA 11-12:**
+    * Feature Engineering: Como transformar dados categóricos (One-Hot Encoding, Label Encoding) e normalizar dados numéricos (StandardScaler).
+    * O problema do Overfitting e como evitá-lo (Validação Cruzada).
+
+**MÊS 4 - DEEP LEARNING E PROJETO INICIAL**
+
+* **SEMANA 13-14:**
+    * Introdução a Redes Neurais: O que são neurônios, camadas e backpropagation (conceitual).
+    * Introdução a TensorFlow ou PyTorch (escolha um): Construir sua primeira rede neural simples.
+* **SEMANA 15-16:**
+    * Iniciar Projeto de Portfólio (Ver seção abaixo): Foco na parte de análise e treinamento do modelo.
+    * Refinar o pré-processamento do seu projeto.
+
+**MÊS 5 - MLOPS: O LADO "ENGENHARIA"**
+
+* **SEMANA 17-18:**
+    * Criação de APIs: Aprender a usar FastAPI ou Flask para "servir" seu modelo treinado.
+    * Criar um endpoint `/predict` para seu projeto.
+* **SEMANA 19-20:**
+    * Introdução ao Docker: O que são containers?
+    * Criar um `Dockerfile` para "empacotar" sua API de ML.
+
+**MÊS 6 - FECHAMENTO E PREPARAÇÃO**
+
+* **SEMANA 21-22:**
+    * Ferramentas de Tracking: Introdução ao MLflow para registrar experimentos e métricas.
+    * Finalizar e refatorar o projeto de portfólio.
+* **SEMANA 23-24:**
+    * Criar um `README.md` excelente para seu projeto no GitHub.
+    * Focar 100% no Roteiro de Entrevistas.
+
+🚀 PROJETO DE PORTFÓLIO
+
+**PROJETO:** API de Previsão de Preços de Imóveis
+
+**O QUE FAZER:**
+Você usará um dataset clássico (como o "Boston Housing" ou um similar do Kaggle) para treinar um modelo de Regressão (ex: Random Forest Regressor) que prevê o preço de um imóvel baseado em suas características (nº de quartos, área, localização, etc.). O foco final será expor este modelo como uma API Dockerizada.
+
+**ENTREGÁVEIS:**
+* Um Jupyter Notebook (`.ipynb`) com toda a análise exploratória, limpeza de dados e treinamento do modelo.
+* Um arquivo `app.py` (usando FastAPI) que carrega o modelo salvo (ex: `model.pkl`) e expõe um endpoint.
+* Um `Dockerfile` que constrói a imagem da sua API.
+* Um `README.md` claro no GitHub explicando como rodar o projeto.
+
+**CRITÉRIOS DE ACEITAÇÃO:**
+* O notebook deve justificar a escolha do modelo e mostrar suas métricas (ex: R² ou RMSE).
+* A API deve aceitar um JSON com as características da casa e retornar um JSON com o preço previsto.
+* Eu consigo baixar seu projeto, rodar `docker build` e `docker run`, e fazer uma requisição para a API.
+
+**DICA:** O mais importante para a *Engenharia* de ML não é ter o modelo mais preciso do mundo, mas sim um modelo *razoável* que funcione de forma confiável dentro de uma API e um container.
+
+💬 ROTEIRO DE ENTREVISTAS
+
+**PERGUNTA 1:** Qual a diferença entre Machine Learning Supervisionado e Não Supervisionado?
+**COMO RESPONDER:**
+"No **Supervisionado**, nós temos dados rotulados, ou seja, já sabemos a resposta correta. O objetivo é treinar um modelo para mapear a entrada (features) para a saída (label). Exemplos são Regressão (prever um número) e Classificação (prever uma categoria). No **Não Supervisionado**, não temos rótulos. O objetivo é encontrar padrões ocultos nos dados, como no Clustering (agrupamento) ou na detecção de anomalias."
+
+**PERGUNTA 2:** Explique o que é Overfitting e como você pode evitá-lo.
+**COMO RESPONDER:**
+"Overfitting é quando o modelo 'decora' os dados de treino, aprendendo até o ruído, e por isso falha em generalizar para dados novos. Ele se sai muito bem no treino, mas muito mal no teste. Para evitar, usamos técnicas como **Validação Cruzada** (Cross-Validation), **Regularização** (L1/L2) para penalizar complexidade, ou **Dropout** em redes neurais. Usar mais dados de treino também ajuda."
+
+**PERGUNTA 3:** Você treinou um modelo de classificação para fraude e ele teve 98% de acurácia. Isso é bom?
+**COMO RESPONDER:**
+"Não necessariamente. Se o dataset for **desbalanceado** – por exemplo, 99% das transações são 'não-fraude' e 1% é 'fraude' – um modelo 'bobo' que sempre prevê 'não-fraude' teria 99% de acurácia. Nesses casos, a acurácia é uma métrica ruim. Eu olharia para **Precisão (Precision)**, **Recall** e a **Matriz de Confusão** para entender como o modelo lida com a classe minoritária (a fraude), que é a que realmente importa."
+
+**PERGUNTA 4:** Fale sobre um projeto de ML que você construiu. (Use seu projeto de portfólio)
+**COMO RESPONDER:**
+"Eu construí uma API para prever preços de imóveis. O desafio foi a **limpeza dos dados** e o **feature engineering**, pois muitas colunas tinham valores faltantes ou estavam em formatos variados. Usei um [Seu Modelo, ex: Random Forest] que deu um [Sua Métrica, ex: R² de 0.85]. O mais interessante foi o lado da engenharia: empacotei o modelo treinado em uma **API com FastAPI** e a **containerizei com Docker**, para que ela pudesse ser facilmente implantada em qualquer lugar."
+
+**PERGUNTA 5:** Por que o Docker é útil para Engenharia de Machine Learning?
+**COMO RESPONDER:**
+"Ele resolve o problema do 'funciona na minha máquina'. Um modelo de ML depende de versões específicas do Python, do Pandas, do Scikit-learn, etc. O Docker **empacota o modelo, o código da API e todas essas dependências** em uma imagem imutável. Isso garante que o ambiente de produção seja idêntico ao de desenvolvimento, tornando o deploy muito mais rápido e confiável."
+
+🎓 TRILHA DIO RECOMENDADA
+
+**TRILHA:** Formação Machine Learning Specialist
+
+**POR QUE ESSA TRILHA:**
+Esta formação é ideal para você. Ela começa com os fundamentos de Python e estatística (reforçando sua base de "iniciante"), mergulha fundo em Pandas e Scikit-learn (o "core" do ML clássico) e finaliza com introdução a Deep Learning. Ela se alinha perfeitamente com os 3-4 primeiros meses do nosso roadmap.
+
+**PRÓXIMOS PASSOS:**
+1.  Acesse dio.me
+2.  Busque por "**Formação Machine Learning Specialist**"
+3.  Inscreva-se gratuitamente
+4.  Siga o cronograma junto com este roadmap
+
+---
+
+✨ Seu plano está pronto!
+
+Lembre-se: o mais importante é a constância, não a velocidade. Com 14 horas por semana, você tem um ritmo excelente. Comece pela Semana 1 e vá no seu ritmo.
+
+Tem alguma dúvida sobre o plano? Posso detalhar alguma parte específica?
